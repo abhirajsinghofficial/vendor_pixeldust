@@ -26,7 +26,7 @@ $(call set-device-specific-path,THERMAL,thermal,hardware/qcom/thermal)
 $(call set-device-specific-path,VR,vr,hardware/qcom/vr)
 $(call set-device-specific-path,WLAN,wlan,hardware/qcom/wlan-caf)
 
-PRODUCT_CFI_INCLUDE_PATHS += \
+#PRODUCT_CFI_INCLUDE_PATHS += \
     hardware/qcom-caf/wlan/qcwcn/wpa_supplicant_8_lib
 
 endif
